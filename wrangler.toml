@@ -1,6 +1,11 @@
 name = "honp-prisma-d1-example"
 compatibility_date = "2024-08-17"
 
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "hono-prisma-demo-db"
+database_id = "67b0d349-9d64-4f98-9379-ded595e8d37e"
+
 # [vars]
 # MY_VAR = "my-variable"
 
