@@ -1,1 +1,7 @@
--- Migration number: 0002 	 2024-08-18T10:31:45.255Z
+-- CreateTable
+CREATE TABLE "Company" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "address" TEXT NOT NULL
+);
+
